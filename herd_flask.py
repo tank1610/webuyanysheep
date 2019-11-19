@@ -126,7 +126,6 @@ def process_order(time, milk, wool):
     order_dict ={}
 
     print('Current milk: ', current_milk)
-    print(milk)
 
     if current_milk >= milk and current_wool >= wool:
         #Order fully fulfilled
